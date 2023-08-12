@@ -49,6 +49,16 @@
             padding-left: 1.5rem;
         }
 
+        /* Style for contact section */
+        #contact {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-details {
+            margin-left: 1.5rem;
+        }
+
         /* Style for contact buttons */
         .contact-button {
             display: inline-block;
@@ -59,6 +69,7 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
+            margin-right: 1rem;
         }
 
         /* Styling for the contact buttons on hover */
@@ -127,9 +138,11 @@
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:mohammad1qwertyu@gmail.com">mohammad1qwertyu@gmail.com</a></p>
-            <p>WhatsApp: <a class="contact-button" href="https://wa.me/971508762028" target="_blank">+971 50 876 2028</a></p>
-            <p>Call: <a class="contact-button" href="tel:0585208893">058 520 8893</a></p>
+            <div class="contact-details">
+                <p><img src="email.png" alt="Email" height="16" width="16"> <a href="mailto:mohammad1qwertyu@gmail.com">mohammad1qwertyu@gmail.com</a></p>
+                <p><img src="whatsapp.png" alt="WhatsApp" height="16" width="16"> <a class="contact-button" href="https://wa.me/971508762028" target="_blank">WhatsApp: +971 50 876 2028</a></p>
+                <p><img src="phone.png" alt="Call" height="16" width="16"> <a class="contact-button" href="tel:0585208893">Call: 058 520 8893</a></p>
+            </div>
         </section>
     </main>
 

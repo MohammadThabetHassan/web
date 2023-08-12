@@ -61,7 +61,9 @@
 
         /* Style for contact buttons */
         .contact-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background-color: #007bff;
             color: white;
             padding: 0.5rem 1rem;
@@ -70,6 +72,7 @@
             cursor: pointer;
             text-decoration: none;
             margin-right: 1rem;
+            font-size: 1rem;
         }
 
         /* Styling for the contact buttons on hover */
@@ -139,9 +142,9 @@
         <section id="contact">
             <h2>Contact Me</h2>
             <div class="contact-details">
-                <p><img src="email.png" alt="Email" height="16" width="16"> <a href="mailto:mohammad1qwertyu@gmail.com">mohammad1qwertyu@gmail.com</a></p>
-                <p><img src="whatsapp.png" alt="WhatsApp" height="16" width="16"> <a class="contact-button" href="https://wa.me/971508762028" target="_blank">WhatsApp: +971 50 876 2028</a></p>
-                <p><img src="phone.png" alt="Call" height="16" width="16"> <a class="contact-button" href="tel:0585208893">Call: 058 520 8893</a></p>
+                <p><a class="contact-button" href="mailto:mohammad1qwertyu@gmail.com"><span class="icon">&#9993;</span> Email</a></p>
+                <p><a class="contact-button" href="https://wa.me/971508762028" target="_blank"><span class="icon">&#128242;</span> WhatsApp</a></p>
+                <p><a class="contact-button" href="tel:0585208893"><span class="icon">&#9742;</span> Call</a></p>
             </div>
         </section>
     </main>

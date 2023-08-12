@@ -49,6 +49,23 @@
             padding-left: 1.5rem;
         }
 
+        /* Style for contact buttons */
+        .contact-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Styling for the contact buttons on hover */
+        .contact-button:hover {
+            background-color: #0056b3;
+        }
+
         footer {
             text-align: center;
             padding: 1rem;
@@ -110,7 +127,9 @@
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: mohammad1qwertyu@gmail.com</p>
+            <p>Email: <a href="mailto:mohammad1qwertyu@gmail.com">mohammad1qwertyu@gmail.com</a></p>
+            <p>WhatsApp: <a class="contact-button" href="https://wa.me/971508762028" target="_blank">+971 50 876 2028</a></p>
+            <p>Call: <a class="contact-button" href="tel:0585208893">058 520 8893</a></p>
         </section>
     </main>
 
